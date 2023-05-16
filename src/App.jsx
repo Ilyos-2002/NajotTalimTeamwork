@@ -8,16 +8,15 @@ import { Work } from './Components/Work/Work';
 function App() {
   return (
 
-   <>
+
     <div>
       <Header />
-     <Work/>
+      <Work/>
       <Partners />
       <Testimonials />
       <Footer/>
     </div>
 
-   </>
 
   )
 }
