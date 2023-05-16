@@ -1,0 +1,130 @@
+.box {
+    background-color: #181818;
+
+
+}
+
+
+
+.heading {
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 88px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.paragraph {
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 88px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 0;
+    color: #02E4C0;
+
+}
+
+.text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 37px auto 85px;
+    max-width: 600px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.link1 {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding: 20px 40px;
+    background: #4452FE;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.link1:hover {
+    background: #4578FB;
+    cursor: pointer;
+}
+
+.link2 {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding: 18px 38px;
+    background: #181818;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid white;
+
+
+}
+
+.link2:hover {
+    color: #4578FB;
+    cursor: pointer;
+    border: 2px solid #4578FB;
+}
+
+.imgbox {
+    height: 841px;
+    max-width: 1300px;
+    background-image: url("./images/screens.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:1200px) {
+    .imgbox {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+}
+
+
+@media screen and (max-width:780px) {
+    .imgbox {
+        height: 841px;
+        max-width: 780px;
+        background-image: url("./images/screens\ \(1\).png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+
+
+}
+
+@media screen and (max-width:480px) {
+    .text {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        max-width: 389px;;
+    }
+}
