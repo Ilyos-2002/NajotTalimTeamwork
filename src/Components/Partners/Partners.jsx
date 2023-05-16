@@ -1,12 +1,12 @@
 import React from 'react'
 
 import "./Partners.css"
-import logo1 from "./appstore.svg";
-import logo2 from "./apiary.svg";
-import logo3 from "./android.svg";
-import logo4 from "./basecamp.svg";
-import logo5 from "./logo5.svg";
-import logo6 from "./ibm.svg";
+import logo1 from "./Images/appstore.svg";
+import logo2 from "./Images/apiary.svg";
+import logo3 from "./Images/android.svg";
+import logo4 from "./Images/basecamp.svg";
+import logo5 from "./Images/logo5.svg";
+import logo6 from "./Images/ibm.svg";
 
 export default function Partners() {
     return (
