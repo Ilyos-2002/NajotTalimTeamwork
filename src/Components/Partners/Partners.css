@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #000;
 }
 
 .partnerscard__title {
@@ -12,4 +13,24 @@
     line-height: 62px;
     letter-spacing: 0.2px;
     color: #FFFFFF;
+    margin-bottom: 20px;
+
+}
+
+.partnerscard__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+
+.partnerscard_list {
+    display: flex;
+    gap: 74px;
+    flex-wrap: wrap;
 }

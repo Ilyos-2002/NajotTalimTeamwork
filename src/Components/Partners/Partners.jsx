@@ -13,9 +13,9 @@ export default function Partners() {
         <section>
             <div className="container partnerscard">
                 <h2 className='partnerscard__title'>Partners</h2>
-                <p>We focus on ergonomics and meeting you where you work.
+                <p className='partnerscard__text'>We focus on ergonomics and meeting you where you work.
                     It's only a keystroke away.</p>
-                <ul>
+                <ul className='partnerscard_list'>
                     <li>
                         <a href="https://www.apple.com/uz/app-store/">
                             <img src={logo1} alt="logo app store" />
