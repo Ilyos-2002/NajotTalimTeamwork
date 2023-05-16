@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router";
+import {Contents} from './Components/Contents/Contents'
 
 function App() {
   return (
-   <div>
-    <h1>Hello </h1>
-   </div>
+    <Routes>
+      <Route path="/" element={<Contents />} />
+    </Routes>
   );
 }
 

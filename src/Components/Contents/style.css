@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  background-color: #181818;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.Contents__text {
+  display: grid;
+  place-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Contents__text h1 {
+  font-family: "Inter";
+  font-size: 52px;
+  line-height: 62px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.Contents__text p {
+  width: 574px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.Contents__cards {
+  display: flex;
+  justify-content: center;
+  gap: 33px;
+}
+
+.Contents__Fcard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  padding: 50px 35px 40px;
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  margin-top: 54px;
+  overflow: hidden;
+}
+
+.Contents__Fcard h1 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #000000;
+}
+
+.Contents__Fcard p {
+  margin-top: 30px;
+  width: 334px;
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #5c5c5c;
+}
+
+.Contents__Fcard button {
+  margin-top: 40px;
+  padding: 13px 46px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  background: #4452fe;
+  border: none;
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+}
+
+.im {
+  margin-top: 30px;
+}
+
+.Contents__link {
+  position: absolute;
+  width: 155px;
+  left: 400px;
+  top: 15px;
+  background: #02e4c0;
+  transform: rotate(45deg);
+  overflow: hidden;
+  text-align: center;
+}
+
+@media screen and (max-width: 960px) and (min-width: 769px) {
+  .Contents__cards {
+    padding: 30px;
+  }
+  .Contents__Fcard {
+    padding: 50px 25px 40px;
+  }
+  .Contents__link {
+    left: 345px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px) {
+  .Contents__cards {
+    padding: 27px;
+    flex-direction: column;
+  }
+  .Contents__Fcard {
+    padding: 50px 45px 40px;
+  }
+  .Contents__link {
+    left: 554px;
+    top: 20px;
+  }
+}
