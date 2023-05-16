@@ -1,11 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Partners from './Components/Partners/Partners';
 
 function App() {
   return (
-   <div>
-    <h1>Hello </h1>
-   </div>
+    <div>
+      <Partners />
+
+    </div >
   );
 }
 
