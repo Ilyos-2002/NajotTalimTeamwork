@@ -11,8 +11,8 @@ function App() {
       <Header />
       <Partners />
       <Testimonials />
-
       <Footer />
+      <p>salom</p>
     </div>
 
   )
